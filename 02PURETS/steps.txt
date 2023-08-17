@@ -1,0 +1,30 @@
+run
+tsc --init
+start node project
+npm init -y // we add y so that it does not ask many questions 
+make directory(folder)
+mkdir src dist(build)
+go to 
+tsconfig.json()
+uncomment 
+"outDir": "./dist"  // this would be the out put folder
+watch mode 
+tsc -W // it is going to look for changes
+
+public vs private
+properties by default are public 
+unless used with private keyword 
+everything that you create within the class are public unless you write private. which can only be accessed within the class
+
+protected - property can be accessed from the child user but not outside .
+
+** # / private do the same thing. # is used in js while private is found in tsc
+
+in setters there is no return type  
+
+
+get - getters: get the value
+set - setters: update the value
+
+
+
